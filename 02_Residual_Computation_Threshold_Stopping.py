@@ -229,7 +229,7 @@ plt.plot(range(len(residuals)), residuals)
 plt.yscale('log')
 plt.xlabel('Iteration Number', fontsize= 20)
 plt.ylabel('Residual Signal Level', fontsize= 20)
-plt.title(f'Residual Signal over {steps} Iterations', fontsize= 20 )
+plt.title(f'Residual Signal over {stop_count} Iterations', fontsize= 20 )
 plt.show()
 
 
